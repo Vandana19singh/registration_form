@@ -1,0 +1,64 @@
+body {
+    align-items: center;
+    background-color: #275d5af0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* opacity: .5; */
+  }
+  .form{
+    width:20%;
+    padding:2rem;
+    border-radius:.3rem;
+    box-shadow: rgba(0, 0, 0,.6) -8px;
+    margin:auto auto;
+    border: 2px solid rgb(16 61 61 / 77%);
+    background-color: rgb(13 55 57);
+    /* opacity: .5; */
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    transition: all.3s ease-in-out ;
+    cursor: pointer;
+    
+
+  }
+  input[type="text"],input[type="email"] ,input[type="password"]{
+    font-size: 17px;
+    width: 100%;
+    padding: 4px 11px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    border-bottom :  2px dotted white;
+    background-color: transparent;
+    color:white;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .button{
+    
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 18px;
+    font-size: 20px;
+    height: 42px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(308deg,#22eddcfc 0,#021323b5 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+    :hover{
+        box-shadow: 0 0 0 0.15rem #5ceace;
+    }
+    
+
+  }
+  
+
